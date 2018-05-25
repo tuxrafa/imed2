@@ -1,0 +1,224 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.navbar ul {
+    display: inline;
+    float: right
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+body>div.container {
+}
+
+section#inicio {
+    background: black;
+    height: 100vh;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+section#conservatorio h2 {
+    font-size: 130px;
+    text-transform: lowercase;
+    line-height: 90px;
+    margin: -1.35em 0 -9px -1.4em;
+    color: white;
+    white-space: nowrap;
+}
+
+section#conservatorio .texto {
+    color: #333;
+    background: white;
+    padding: 50px 50px 0 50px;
+}
+
+section#conservatorio .texto1 p {
+    border-left: 2px solid #790a06;
+    border-bottom: 2px solid #790a06;
+    padding: 0px 30px 50px 30px;
+}
+
+section#conservatorio .texto2 {
+    margin: -39px 0 10px 90px;
+    padding: 0 50px;
+}
+
+section#curso .texto4 p {
+    color: white !important
+}
+
+section#conservatorio .texto2 h3 {
+    margin-left: -40px;
+    text-transform: lowercase;
+    font-size: 30px
+}
+
+section#conservatorio .texto p {
+    margin-top: -10px;
+    white-space: pre-line;
+}
+
+nav.navbar {
+    background: transparent;
+    border: 0 none;
+}
+
+body {
+    font-family: "QuadraatSansCon-Bold", Myriad, Helvetica, "Roboto Condensed", sans-serif;
+    padding-top: 0;
+    padding-bottom: 20px;
+    background: #770a05;
+}
+
+.container-full {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar ul {
+    display: inline;
+    float: right;
+    line-height: 50px;
+    margin: 0 !important;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 5px !important;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+section#inicio {
+    background: url("../img/bg1.jpg") no-repeat 50% black;
+    min-height: 80vh;
+    color: white;
+}
+
+section#conservatorio {
+    background: url("../img/photo1.jpg");
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: 0 60px;
+}
+
+section#curso {
+    background: url("../img/bg2.jpg") no-repeat 50% 100% #1b1107;
+    min-height: 100vh;
+    height: 1320px;
+    margin-top: 30px !important;
+}
+
+.curso-area {
+    background: rgba(78, 0, 0, 0.8);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#770a05+0,000000+36,000000+68,770a05+99&0.71+0,1+100 */
+    background: linear-gradient(to bottom, rgba(119,10,5,0.9) 0%,rgba(0,0,0,0.81) 36%,rgba(0,0,0,0.91) 78%,rgba(119,10,5,0.8) 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5770a05', endColorstr='#770a05',GradientType=0 );
+    /* IE6-9 */
+    color: white;
+    padding-top: 200px;
+    margin-top: -200px;
+    padding: 50px;
+}
+
+.curso-area h2 {
+    font-size: 170px !important;
+    text-transform: lowercase;
+    line-height: 218px;
+    margin-top: 50px;
+}
+
+.curso-area h3 {
+    text-transform: lowercase;
+    font-size: 32px
+}
+
+section#grade {
+    margin-top: -737px !important;
+    height: 737px;
+}
+
+#grade h2 {
+    background: #770a05;
+    padding: 10px;
+    text-transform: lowercase;
+    color: white;
+    position: absolute;
+    width: 180%;
+    left: -80%;
+    padding-left: 93%;
+    font-size: 100px;
+    line-height: 100px;
+    margin-top: 200px;
+}
+
+#grade .col-md-4 {
+    border-right: 10px solid #770a05;
+    height: 737px;
+}
+
+#grade .texto5 {
+    border: 3px solid #770a05;
+    background: #000000a1;
+    color: white;
+    padding: 0px 20px 20px 20px;
+    margin: 199px 20px;
+}
+
+#grade .texto5 p{
+    color: white;
+}
+
+#grade .texto5:before {
+    content: " ";
+    height: 4px;
+    width: 40px ;
+    display: inline-block;
+    background: #770a05;
+    margin-left: -62px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+section#promocoes {
+    background: #770a05;
+    color: white;
+    min-height: 80vh;
+}
+
+#promocoes h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+    text-transform: lowercase;
+}
+
+section#promocoes,
+section#contato,
+section#agenda,
+section#videos {
+    display: none;
+}
+
+footer {
+    background: #770a05;
+    color: white;
+}
+
+footer p {
+    color: white;
+}
