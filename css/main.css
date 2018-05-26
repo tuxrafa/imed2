@@ -32,7 +32,7 @@ section#conservatorio h2 {
     font-size: 130px;
     text-transform: lowercase;
     line-height: 90px;
-    margin: -1.35em 0 -9px -1.4em;
+    margin: -1.35em 0 -14px -1.4em;
     color: white;
     white-space: nowrap;
 }
@@ -64,7 +64,7 @@ section#conservatorio .texto2 h3 {
     font-size: 30px
 }
 
-section#conservatorio .texto p {
+.texto p {
     margin-top: -10px;
     white-space: pre-line;
 }
@@ -72,13 +72,14 @@ section#conservatorio .texto p {
 nav.navbar {
     background: transparent;
     border: 0 none;
+    background: #760a05f2;
 }
 
 body {
     font-family: "QuadraatSansCon-Bold", Myriad, Helvetica, "Roboto Condensed", sans-serif;
     padding-top: 0;
-    padding-bottom: 20px;
-    background: #770a05;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 .container-full {
@@ -100,6 +101,7 @@ body {
 
 .navbar ul li a {
     color: white;
+    font-size: 16px;
 }
 
 section#inicio {
@@ -119,7 +121,6 @@ section#curso {
     background: url("../img/bg2.jpg") no-repeat 50% 100% #1b1107;
     min-height: 100vh;
     height: 1320px;
-    margin-top: 30px !important;
 }
 
 .curso-area {
@@ -130,8 +131,8 @@ section#curso {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5770a05', endColorstr='#770a05',GradientType=0 );
     /* IE6-9 */
     color: white;
-    padding-top: 200px;
-    margin-top: -200px;
+    padding-top: 250px !important;
+    margin-top: -400px;
     padding: 50px;
 }
 
@@ -150,6 +151,10 @@ section#curso {
 section#grade {
     margin-top: -737px !important;
     height: 737px;
+    width: 100vw;
+    display: block;
+    float: none;
+    clear: both;
 }
 
 #grade h2 {
@@ -167,7 +172,6 @@ section#grade {
 }
 
 #grade .col-md-4 {
-    border-right: 10px solid #770a05;
     height: 737px;
 }
 
@@ -176,7 +180,7 @@ section#grade {
     background: #000000a1;
     color: white;
     padding: 0px 20px 20px 20px;
-    margin: 199px 20px;
+    margin: 199px 0 0 0px;
 }
 
 #grade .texto5 p{
@@ -207,18 +211,79 @@ section#promocoes {
     text-transform: lowercase;
 }
 
+li.promocoes,
+li.downloads,
+li.agenda,
+li.videos,
+li.yourtrack,
 section#promocoes,
-section#contato,
+section#downloads,
 section#agenda,
 section#videos {
-    display: none;
+    display: none !important;
 }
 
 footer {
     background: #770a05;
     color: white;
+    margin-top: -6px;
+    line-height: 50px;
+    z-index: 8;
+    position: relative;
 }
 
 footer p {
     color: white;
+    margin: 0;
 }
+
+.texto5 h3:before {
+    content: "_";
+    margin-right: 5px;
+}
+
+div#keeponplaying {
+    margin: 130px 0 0 0px;
+    border: 3px solid #770a05;
+    height: 300px;
+    background: #770a05;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+div#keeponplaying iframe {
+    border: 3px solid #770a05;
+}
+
+div#map {
+    height: 80vh;
+    width: 100vw;
+    background: url("../img/bg4-mapa.jpg");
+    background-size: cover;
+}
+
+section#contato .col-md-3 {
+    position: absolute;
+    top: 0;
+    background: #760a05;
+    color: white;
+    height: 100%;
+    margin-top: -5px;
+    font-size: 20px
+}
+
+section#contato {
+    position: relative;
+    border-top: 15px solid #750a05;
+    margin-top: -10px !important;
+}
+
+section#contato h2 {
+    font-size: 120px !important;
+    margin: auto;
+    text-align: center;
+}
+
+section#contato .col-md-3 a {
+    color: white;
+    font-style: italic
